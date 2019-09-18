@@ -19,7 +19,7 @@ for line in fileinput.input():
          selections.append(line)
 print('Created list of Selections')
 
-fh = open('YouTube', 'w')
+fh = open('YouTube.txt', 'w')
 for line in selections:
     start = line.find('title=')
 
